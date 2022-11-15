@@ -10,7 +10,7 @@ namespace Conexiones
 {
     internal class Conexion
     {
-
+                           //Data Source se refiere al nombre de la instancia   //Initial Catalog se refiere al nombre de la base de datos
         SqlConnection conectada = new SqlConnection(@"Data Source = localhost; Initial Catalog = Escuela2A; Integrated Security = true");
 
         public void Conectar()
